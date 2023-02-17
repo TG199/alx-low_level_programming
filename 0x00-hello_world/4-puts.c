@@ -1,11 +1,10 @@
-#!/bin/bash
 #include <stdio.h>
 int main(void)
 {
-	char i[];
+	char wrds[50];
 
-	strcpy(i,"Programming is like building a multilingual puzzle\n");
-	puts(i);
+	strcpy(wrds,"Programming is like building a multilingual puzzle\n");
+	puts(wrds);
 
 	return 0;
 }
