@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*Entry point*/
+/**
+ * Main - Entry point of program
+ *
+ * Description: Print some text
+ */
 int main(void)
 {
 	/**
