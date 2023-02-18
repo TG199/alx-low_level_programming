@@ -1,15 +1,14 @@
+
 #include <stdio.h>
+
 /**
- * Main - Entry point of program
+ * main - Entry point of program
  *
- * Description: Print some text
+ * Description: THis function prints a number of specified text.
+ * Return: Always 0 (Sccess).
  */
 int main(void)
 {
-	/**
-	 * Description: The entry point of,
-	 * the program.
-	 */
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
