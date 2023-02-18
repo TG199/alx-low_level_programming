@@ -26,6 +26,6 @@ int main(void)
 		else
 			if (n < 6 && n != 0)
 			printf("and is less than 6 and not 0\n");
-			u = u + 1;
+		u = u + 1;
 	} return (0);
 }
