@@ -5,11 +5,12 @@
 
 
 /**
- * Print random number
+ * main - Entry point of program.
  *
  * Description: This function assigns a random number to variable n.
  * It also checks if the assigned number is,
  * positive or negative.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
