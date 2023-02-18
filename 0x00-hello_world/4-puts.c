@@ -1,13 +1,14 @@
-gcc main.c
 #include <stdio.h>
+/**
+ * main - Entry point of program.
+ *
+ * Description: This program prints a specified text.
+ * Return: Always 0 (Success).
+ */
 int main(void)
 {
-	char wrds[50];
-
-	strcpy(wrds,"Programming is like building a multilingual puzzle\n");
-	puts(wrds);
-
-	return 0;
+	puts("Programming is like building a multilingual puzzle\n");
+	return (0);
 }
 	
 
