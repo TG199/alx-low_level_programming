@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - Entry point.
+ * print_alphabet - Entry point.
  *
  * Description: This program prints lowercase letters
  * using _putchar.
  * Return: 0.
  */
-int main()
+void print_alphabet(void)
 {
 	char c = 'a';
 
@@ -15,5 +15,6 @@ int main()
 	{
 		_putchar(c);
 		c++;
-	}_putchar('\n');
+	} _putchar('\n');
+	return (0);
 }
