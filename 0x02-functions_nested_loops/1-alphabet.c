@@ -7,7 +7,7 @@
  * using _putchar.
  * Return: 0.
  */
-int main(void)
+int main()
 {
 	char c = 'a';
 
@@ -15,6 +15,5 @@ int main(void)
 	{
 		_putchar(c);
 		c++;
-	} _putchar('\n');
-	return (0);
+	}_putchar('\n');
 }
