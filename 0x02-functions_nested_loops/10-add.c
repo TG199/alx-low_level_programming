@@ -1,18 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - Entry point of program
+ * add - Entry point of program
  *
  * Description: The functon add 2 numbers.
  * Return: 0.
  */
-int main(void)
+int add(int a, int b)
 {
-	int n;
-
-	n = add(60, 40);
-	printf("%d\n", n);
-	return (0);
+	return (a + b);
 }
-
