@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _putchar - prints characters.
- * @k[: print argument`
+ * @k: print argument
  * @a: counter.
  *
  * Description: this program prints the word _putchar
@@ -15,7 +15,7 @@ int _putchar(char k[])
 
 	for (int a = 0; a < k[6]; a++)
 	{
-		putchar(a);
-	} putchar('\n');
+		_putchar(a);
+	} _putchar('\n');
 	return (0);
 }
