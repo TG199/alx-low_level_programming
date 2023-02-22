@@ -1,8 +1,20 @@
 #include "main.h"
 
+/**
+ * main - Entry point.
+ *
+ * Description: This program prints lowercase letters
+ * using _putchar.
+ * Return: 0.
+ */
 int main(void)
 {
-	print_alphabet();
-	 _putchar('\n');
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+	} _putchar('\n');
 	return (0);
 }
