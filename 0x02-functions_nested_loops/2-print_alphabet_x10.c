@@ -10,6 +10,7 @@
 void print_alphabet(void)
 {
 	char ch = 'a';
+	int a;
 
 	while (ch <= 'z')
 	{
