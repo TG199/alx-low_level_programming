@@ -3,6 +3,7 @@
 /**
  * _isupper - Print letters
  *
+ *@c: character to print
  * Description: This function checks for upper
  * case letters and prints them.
  * Return: 0.
