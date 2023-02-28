@@ -10,11 +10,11 @@
  */
 void _puts(char *str)
 {
-	string = str[0];
+	int i = 0;
 
-	while (str[string] != '\0')
+	while (str[i] != '\0')
 	{
-		_putchar(string);
-		string++;
+		_putchar(s[i]);
+		i++;
 	} _putchar('\n');
 }
