@@ -3,7 +3,7 @@
 /**
  * _pow_recursion - return the power of a number
  * @x: value
- * @y: power 
+ * @y: power
  *
  * Description: Return the power of a value
  * Return: power
