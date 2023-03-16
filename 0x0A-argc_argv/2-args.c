@@ -2,6 +2,8 @@
 
 /**
  * main - Entry point
+ * @argc: number
+ * @argv[]: string
  *
  * Description: This function prints all args it receives
  * Return: 0
