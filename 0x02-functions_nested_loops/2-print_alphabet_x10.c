@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Entry point.
+ * print_alphabet_x10 - Print lowercase alphabets.
  *
  * Description: This program prints out
  * lowercase alphabet 10x.
  * Return: 0;
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	int a;
-	char ch;
+	int count;
+	char a;
 
-	for (a = 0;a <= 10;a++)
+	for (count = 0; count < 11; count++)
 	{
-		for (ch = 'a';ch <= 'z';ch++)
+		for (a = 'a'; a <= 'z'; a++)
 		{
-			_putchar(ch);
-		}_putchar('\n');
+			_putchar(a);
+		} _putchar('\n');
 	}
 }
 
