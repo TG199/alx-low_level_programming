@@ -10,6 +10,7 @@
 int _islower(int c)
 {
 	int a = 'a';
+
 	while (a <= 'z')
 	{
 		if (c == a)
