@@ -24,7 +24,8 @@ unsigned int binary_to_uint(const char *b)
 		{
 			bin_to_convert = bin_to_convert * 2 + (b[index] - '0');
 		}
-		else {
+		else
+		{
 			return (0);
 		}
 		index++;
