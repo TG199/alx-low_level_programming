@@ -3,10 +3,10 @@
 
 /**
  * _abs - print absolute number
- *
- * Description: This funcion prints the absolute number
- * of a value
- * Return: absolute number
+ * @input: number to find absolute value
+ * Description: This funcion prints the absolute value
+ * of a number
+ * Return: absolute value
  */
 
 int _abs(int input)
@@ -16,7 +16,8 @@ int _abs(int input)
 	{
 		return (input);
 	}
-	else {
+	else
+	{
 		return (input * -1);
 	}
 }
