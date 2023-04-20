@@ -1,1 +1,2 @@
- This directory is about file input/output in C
+# File descriptors
+this directory is about file descriptors and systems calls
