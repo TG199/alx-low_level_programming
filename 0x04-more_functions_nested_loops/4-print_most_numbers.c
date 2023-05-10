@@ -1,20 +1,23 @@
 #include "main.h"
-
+#include "stdio.h"
 /**
- * print_most_numbers - print some numbers
+ * print_most_numbers - print 0 to 9 except 2 and 4.
  *
- * Description: This function prints 0 - 9 except 2 and 4
- * Return: 0.
+ * Return: printed numbers.
  */
+
 void print_most_numbers(void)
 {
-	char i = '0';
+	char num = '0';
 
-	while (i <= '9')
+	while (num <= '9')
 	{
-		if (i != '2' && i != '4')
+		_putchar(num);
+		if (num == '1' || num == '3')
 		{
-			_putchar(i);
-		} i++;
-	} _putchar('\n');
+			num++;
+		}
+		num++;
+	}
+	_putchar('\n');
 }
