@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * get_bit = return bit at index
+ * get_bit - return bit at index
  * @n: integer to evaluate
  * @index: bit to return
- * 
- * Return: On success return bit at index 
+ *
+ * Return: On success return bit at index
  */
 
 int get_bit(unsigned long int n, unsigned int index)
@@ -15,5 +15,4 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (-1);
 	}
 	return ((n >> index) & 1);
-
 }
