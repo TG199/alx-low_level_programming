@@ -6,8 +6,10 @@
 #include <fcntl.h>
 #include <stdlib.h>
 #include <string.h>
+#include <errno.h>
 
-#define BUF_SIZ 1024
+
+#define BUF_SIZE 1024
 
 
 ssize_t read_textfile(const char *filename, size_t letters);
