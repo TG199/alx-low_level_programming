@@ -1,16 +1,1 @@
-pal_list = []
-largest = 0
-def is_palindrome(num):
-	return str(num) == str(num)[::-1]
-
-for i in range(100, 1000):
-	for k in range(100, 1000):
-		pal_num = i * k
-
-		if is_palindrome(pal_num):
-			pal_list.append(pal_num)
-
-			if largest < pal_num:
-				largest = pal_num
-print(largest)
-
+906609
