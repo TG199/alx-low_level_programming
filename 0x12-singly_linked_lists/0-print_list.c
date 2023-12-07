@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_list - Prints element
+ * print_list - Prints element of a list
  * @h: pointer to elements.
  *
  * Description: This function prints all elements
@@ -18,7 +18,11 @@ size_t print_list(const list_t *h)
 		{
 			printf("[0] (nil)\n");
 		}
-		printf("[%u] %s\n", h->len, h->str);
+		else
+		{
+
+			printf("[%u] %s\n", h->len, h->str);
+		}
 		h = h->next;
 		num_nodes++;
 	}
