@@ -6,11 +6,11 @@
  *
  * Description: This function prints all elements
  * of list_t.
- * Return: size_t.
+ * Return: no of nodes
  */
 size_t print_list(const list_t *h)
 {
-	size_t count = 0;
+	size_t num_nodes = 0;
 
 	while (h != NULL)
 	{
@@ -18,11 +18,9 @@ size_t print_list(const list_t *h)
 		{
 			printf("[0] (nil)\n");
 		}
-		else
-		{
-			printf("[%u] %s\n", h->len, h->str);
-		} h = h->next;
-		count++;
+		printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
+		num_nodes++;
 	}
-	return (count);
+	return (num_nodes);
 }
