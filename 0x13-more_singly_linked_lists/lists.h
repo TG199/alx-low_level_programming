@@ -1,5 +1,5 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef _LISTS_H
+#define _LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,4 +27,4 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 
 
 
-#endif
+#endif /*_LISTS_H*/
