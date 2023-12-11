@@ -2,16 +2,20 @@
 
 
 /**
- * free_listint - free elements of a list
- * @head: head of list
+ * free_listint2 - free elements of a list
+ * @head: head of list.
  *
+ * Description: this function free all elements of a list and
+ * set the head to NULL
  * Return: An empty list
  */
 void free_listint2(listint_t **head)
 {
 	listint_t *current;
-	if ((*head) == NULL || head == NULL)
-			return;
+
+	if ((*head) == NULL)
+		return;
+
 	current = *head;
 
 	while (current != NULL)
