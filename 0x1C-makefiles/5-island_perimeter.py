@@ -2,7 +2,7 @@
 """ A grid module """
 
 
-def island_perimeter(perimeter):
+def island_perimeter(grid):
     """Returns the perimeter of an island indicated in grid"""
 
     perimeter = 0
